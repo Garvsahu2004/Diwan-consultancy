@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwan Consultancy | Gateway to Industrial Excellence in Maharashtra</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans flex flex-col min-h-screen selection:bg-orange-500 selection:text-white">
+
+    <!-- Header Navigation with Glassmorphism -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- SVG Brand Logo Header -->
+                <div class="flex items-center gap-3 cursor-pointer group" onclick="scrollToTop()">
+                    <div class="relative w-11 h-11 flex items-center justify-center bg-slate-900 rounded-xl shadow-md group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-blue-600 via-teal-500 to-orange-500 opacity-20 group-hover:opacity-40 transition-opacity"></div>
+                        <svg class="w-7 h-7 relative z-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 75 V25 C20 25, 45 20, 60 35 C75 50, 60 75, 20 75 Z" stroke="#3DC1D3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M35 70 V35 L50 45 L65 35 V70" stroke="#F97316" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M25 55 H55" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xl font-extrabold text-slate-900 tracking-tight leading-none group-hover:text-blue-900 transition-colors">DIWAN</span>
+                        <span class="text-[10px] font-bold text-orange-500 uppercase tracking-widest mt-1">Consultancy</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+                    <a href="#home" class="nav-link hover:text-blue-900 transition-colors py-1">Home</a>
+                    <a href="#about" class="nav-link hover:text-blue-900 transition-colors py-1">About Us</a>
+                    <a href="#services" class="nav-link hover:text-blue-900 transition-colors py-1">Services</a>
+                    <a href="#process" class="nav-link hover:text-blue-900 transition-colors py-1">Process</a>
+                    <a href="#industries" class="nav-link hover:text-blue-900 transition-colors py-1">Industries</a>
+                    <a href="#contact" class="nav-link hover:text-blue-900 transition-colors py-1">Contact</a>
+                </nav>
+
+                <!-- Header CTA Button -->
+                <div class="hidden md:block">
+                    <a href="#contact" class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-semibold text-white rounded-lg group bg-gradient-to-br from-blue-900 to-slate-900 group-hover:from-blue-900 group-hover:to-orange-500 hover:shadow-lg hover:shadow-blue-900/20 transition-all duration-300">
+                        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-slate-900 rounded-md group-hover:bg-opacity-0">
+                            GET A QUOTE
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow" id="home">
+        <!-- Hero Section with Parallax Gradient Background -->
+        <section class="relative bg-slate-950 text-white overflow-hidden py-24 lg:py-32">
+            <!-- Animated Background Glows -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-3xl pointer-events-none animate-pulse-slow"></div>
+            <div class="absolute bottom-10 right-10 w-[400px] h-[400px] bg-orange-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-up">
+                        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 font-semibold text-xs uppercase tracking-wider mb-6">
+                            <span class="w-2 h-2 rounded-full bg-orange-500 animate-ping"></span>
+                            Maharashtra's Premier Industrial Advisory
+                        </div>
+                        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                            YOUR GATEWAY TO <span class="bg-gradient-to-r from-blue-400 via-teal-300 to-orange-400 bg-clip-text text-transparent">INDUSTRIAL EXCELLENCE</span>
+                        </h1>
+                        <p class="text-slate-300 text-base sm:text-lg mb-8 leading-relaxed font-light">
+                            Turnkey assistance for MIDC Plot Allotment, Detailed Project Reports (DPR), Building Plan Approvals, and Statutory Licenses in Nagpur & across Maharashtra.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="#services" class="bg-gradient-to-r from-orange-500 to-amber-600 text-white font-bold px-7 py-3.5 rounded-xl hover:shadow-lg hover:shadow-orange-500/30 hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2">
+                                OUR SERVICES <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                            </a>
+                            <a href="#contact" class="bg-white/10 backdrop-blur-md border border-white/20 text-white font-semibold px-7 py-3.5 rounded-xl hover:bg-white hover:text-slate-900 transition-all duration-300">
+                                CONSULT US TODAY
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Floating Hero Image -->
+                    <div class="relative fade-in-up delay-200">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-teal-500 to-orange-500 rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-slate-900">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80" alt="Industrial Infrastructure" class="w-full h-80 lg:h-[420px] object-cover hover:scale-105 transition-transform duration-700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section with Dynamic SVG Brand Showcase -->
+        <section id="about" class="py-20 bg-white border-b border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center fade-in-up">
+                    
+                    <!-- SVG Brand Symbol Centered -->
+                    <div class="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl relative overflow-hidden group">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-600 via-teal-400 to-orange-500 opacity-20 group-hover:opacity-40 transition-opacity"></div>
+                        <svg class="w-12 h-12 relative z-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 75 V25 C20 25, 45 20, 60 35 C75 50, 60 75, 20 75 Z" stroke="#3DC1D3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M35 70 V35 L50 45 L65 35 V70" stroke="#F97316" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M25 55 H55" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+
+                    <h2 class="text-3xl font-extrabold text-slate-900 mb-4 tracking-tight">ABOUT DIWAN CONSULTANCY</h2>
+                    <p class="text-slate-600 text-base sm:text-lg leading-relaxed mb-6 font-normal">
+                        Diwan Consultancy provides end-to-end guidance for setting up manufacturing and warehousing units in MIDC zones. We navigate government sanctions, financial appraisals, and statutory approvals so you can focus on building your enterprise.
+                    </p>
+                    <p class="text-slate-800 font-semibold text-sm uppercase tracking-wider text-orange-600">
+                        Simplifying Industrial Setup Across Maharashtra
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-slate-50 relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in-up">
+                    <span class="text-orange-500 font-bold text-xs uppercase tracking-widest block mb-2">Our Expertise</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">INDUSTRIAL SERVICES</h2>
+                    <p class="text-slate-500 mt-2 text-sm sm:text-base">Click any service to view full details, workflows, and document checklists.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="services-grid-container">
+                    <!-- Cards populated dynamically via script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries Covered -->
+        <section id="industries" class="py-20 bg-white border-y border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 fade-in-up">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">INDUSTRIES WE COVER</h2>
+                    <p class="text-slate-500 text-sm mt-1">Specialized industrial knowledge tailored to your sector</p>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+                    <div class="industry-card p-5 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-50 text-blue-900 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <i data-lucide="wrench" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-sm font-bold text-slate-800">Engineering</span>
+                    </div>
+                    <div class="industry-card p-5 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <i data-lucide="utensils" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-sm font-bold text-slate-800">Food Processing</span>
+                    </div>
+                    <div class="industry-card p-5 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <div class="w-12 h-12 bg-orange-50 text-orange-500 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <i data-lucide="shirt" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-sm font-bold text-slate-800">Textile</span>
+                    </div>
+                    <div class="industry-card p-5 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <i data-lucide="warehouse" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-sm font-bold text-slate-800">Warehousing</span>
+                    </div>
+                    <div class="industry-card p-5 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <div class="w-12 h-12 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <i data-lucide="chef-hat" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-sm font-bold text-slate-800">Commercial Kitchen</span>
+                    </div>
+                    <div class="industry-card p-5 rounded-2xl bg-slate-50 border border-slate-100 text-center hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                            <i data-lucide="truck" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-sm font-bold text-slate-800">Food Cart</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Timeline Section -->
+        <section id="process" class="py-20 bg-slate-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in-up">
+                    <span class="text-orange-500 font-bold text-xs uppercase tracking-widest block mb-2">Step-by-Step Roadmap</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">STEPS TO START YOUR INDUSTRY</h2>
+                </div>
+
+                <div class="relative border-l-2 border-slate-300 ml-4 md:ml-32 space-y-8" id="timeline-container">
+                    <!-- Timeline items populated dynamically via script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white border-t border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    
+                    <!-- Contact Form Card -->
+                    <div class="bg-slate-50 p-8 sm:p-10 rounded-2xl border border-slate-200/80 shadow-sm fade-in-up">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">CONTACT US</h3>
+                        <p class="text-slate-500 text-xs font-semibold uppercase tracking-wider mb-6">GET A QUICK QUOTE FOR YOUR PROJECT</p>
+
+                        <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">NAME</label>
+                                    <input type="text" required placeholder="Your full name" class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">MOBILE</label>
+                                    <input type="tel" required placeholder="Phone number" class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">EMAIL</label>
+                                    <input type="email" required placeholder="email@address.com" class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">INDUSTRY TYPE</label>
+                                    <input type="text" placeholder="e.g. Textile, Food, Engineering" class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">PROJECT COST (APPROX)</label>
+                                    <input type="text" placeholder="e.g. 50 Lakhs / 2 Crores" class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">PREFERRED LOCATION</label>
+                                    <input type="text" placeholder="e.g. Nagpur MIDC" class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">MESSAGE</label>
+                                <textarea rows="3" placeholder="Describe your industrial project requirements..." class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 transition-all"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-gradient-to-r from-orange-500 to-amber-600 text-white font-bold py-3.5 rounded-xl hover:shadow-lg hover:shadow-orange-500/20 transition-all text-sm uppercase tracking-wider">
+                                Submit Enquiry
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Location & Direct Map Interaction -->
+                    <div class="flex flex-col justify-between space-y-6 fade-in-up delay-100">
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Contact Details</h3>
+                            <p class="text-slate-600 mb-6 text-sm">
+                                Visit our main office in Itwari, Nagpur, or connect directly via phone or WhatsApp for instant industrial consultancy guidance.
+                            </p>
+
+                            <!-- Interactive Clickable Maps Card -->
+                            <a href="https://maps.google.com/?q=Itwari,+Nagpur,+Maharashtra" target="_blank" rel="noopener noreferrer" class="group block p-5 bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-2xl hover:border-blue-900 hover:shadow-xl transition-all duration-300 mb-6">
+                                <div class="flex items-start gap-4">
+                                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-red-600 group-hover:text-white transition-colors">
+                                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-xs font-extrabold text-blue-900 uppercase tracking-wider block mb-1">Direct Directions (Google Maps)</span>
+                                        <p class="text-sm font-semibold text-slate-800">Main Office: Itwari, Nagpur, Maharashtra, India - 440002</p>
+                                        <span class="text-xs text-slate-500 mt-2 inline-flex items-center gap-1 group-hover:text-blue-900 font-medium">
+                                            Open Map Route <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Contact Items -->
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-3 text-sm text-slate-700 font-medium">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-900 flex items-center justify-center shrink-0">
+                                        <i data-lucide="phone" class="w-4 h-4"></i>
+                                    </div>
+                                    <span>+91 98765 43210 / +91 712 2345678</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-sm text-slate-700 font-medium">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-900 flex items-center justify-center shrink-0">
+                                        <i data-lucide="mail" class="w-4 h-4"></i>
+                                    </div>
+                                    <span>info@diwanconsultancy.com</span>
+                                </div>
+                                <div class="flex items-center gap-3 text-sm text-slate-700 font-medium">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-900 flex items-center justify-center shrink-0">
+                                        <i data-lucide="clock" class="w-4 h-4"></i>
+                                    </div>
+                                    <span>Mon - Sat: 10:00 AM - 7:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Direct WhatsApp Button -->
+                        <a href="https://wa.me/919876543210?text=Hello%20Diwan%20Consultancy,%20I%20am%20interested%20in%20your%20industrial%20services." target="_blank" class="w-full bg-emerald-600 text-white font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-3 hover:bg-emerald-700 hover:shadow-lg hover:shadow-emerald-600/20 transition-all text-sm">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                            <span>Direct WhatsApp Chat</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-white py-10 border-t border-slate-800 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center border border-slate-800">
+                    <svg class="w-5 h-5" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 75 V25 C20 25, 45 20, 60 35 C75 50, 60 75, 20 75 Z" stroke="#3DC1D3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M35 70 V35 L50 45 L65 35 V70" stroke="#F97316" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <p class="text-slate-400">Diwan Consultancy &copy; 2026. All Rights Reserved.</p>
+            </div>
+            <div class="flex items-center gap-4 text-slate-400 font-medium">
+                <span>Itwari, Nagpur, Maharashtra</span>
+                <span>•</span>
+                <a href="#services" class="hover:text-white transition-colors">Services</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/919876543210?text=Hello%20Diwan%20Consultancy,%20I%20have%20an%20inquiry%20regarding%20your%20services." target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-600 hover:scale-110 active:scale-95 transition-all z-50 flex items-center justify-center animate-bounce-slow" title="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+    </a>
+
+    <!-- Service Detail Dynamic Modal -->
+    <div id="service-modal" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-md hidden flex items-center justify-center p-4 transition-opacity duration-300">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto relative p-6 sm:p-8 border border-slate-100">
+            <button onclick="closeServiceModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-2 rounded-full hover:bg-slate-100 transition-colors">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <div id="modal-content">
+                <!-- Content populated via script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- External JS File -->
+    <script src="script.js"></script>
+</body>
+</html>
